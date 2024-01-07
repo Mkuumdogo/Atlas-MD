@@ -2,14 +2,14 @@ require("dotenv").config();
 
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "918101187835";   // You can replace this number with yours //
+  gg = "254722962550";   // You can replace this number with yours //
 }
 
 
-global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "Put your alternative mongodb url here";
-global.sessionId = process.env.SESSION_ID || "ok";
-global.prefa = process.env.PREFIX || "-";
+global.owner = gg.split("254722962550");
+global.mongodb = process.env.MONGODB || "mongodb+srv://mkubwazbabaz:spicer7963@cluster0.5ixfwl3.mongodb.net/?retryWrites=true&w=majority";
+global.sessionId = process.env.SESSION_ID || "";
+global.prefix = process.env.PREFIX || "*";
 global.tenorApiKey = process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c";
 global.packname = process.env.PACKNAME || `Atlas Bot`;
 global.author = process.env.AUTHOR || "by: Team Atlas";
